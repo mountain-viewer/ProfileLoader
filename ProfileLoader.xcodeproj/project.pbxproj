@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E454B751FD06C2C00163B30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B741FD06C2C00163B30 /* AppDelegate.m */; };
+		1E454B781FD06C2C00163B30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B771FD06C2C00163B30 /* ViewController.m */; };
+		1E454B7B1FD06C2C00163B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E454B791FD06C2C00163B30 /* Main.storyboard */; };
+		1E454B7D1FD06C2C00163B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E454B7C1FD06C2C00163B30 /* Assets.xcassets */; };
+		1E454B801FD06C2C00163B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E454B7E1FD06C2C00163B30 /* LaunchScreen.storyboard */; };
+		1E454B831FD06C2C00163B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B821FD06C2C00163B30 /* main.m */; };
+		1E454B8C1FD06CAE00163B30 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E454B8B1FD06CAE00163B30 /* FBSDKCoreKit.framework */; };
+		1E454B8E1FD06CBC00163B30 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E454B8D1FD06CBB00163B30 /* FBSDKShareKit.framework */; };
+		1E454B901FD06CC100163B30 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E454B8F1FD06CC100163B30 /* Bolts.framework */; };
+		1E454B921FD06CCA00163B30 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E454B911FD06CCA00163B30 /* FBSDKLoginKit.framework */; };
+		1E454B951FD0706600163B30 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B941FD0706600163B30 /* FormViewController.m */; };
+		1E454B981FD0856B00163B30 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B971FD0856B00163B30 /* UserViewController.m */; };
+		1E454B9B1FD0869C00163B30 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B9A1FD0869C00163B30 /* UserTableViewCell.m */; };
+		1E722E791FE3E674002840B7 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E722E781FE3E674002840B7 /* WebViewController.m */; };
+		BD385711D3EBAF86AE29144F /* libPods-ProfileLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84437113A85A6F0C2259FFA6 /* libPods-ProfileLoader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E454B701FD06C2C00163B30 /* ProfileLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E454B731FD06C2C00163B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E454B741FD06C2C00163B30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E454B761FD06C2C00163B30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E454B771FD06C2C00163B30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E454B7A1FD06C2C00163B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E454B7C1FD06C2C00163B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E454B7F1FD06C2C00163B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E454B811FD06C2C00163B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E454B821FD06C2C00163B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E454B8B1FD06CAE00163B30 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1E454B8D1FD06CBB00163B30 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		1E454B8F1FD06CC100163B30 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		1E454B911FD06CCA00163B30 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1E454B931FD0706600163B30 /* FormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		1E454B941FD0706600163B30 /* FormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+		1E454B961FD0856B00163B30 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		1E454B971FD0856B00163B30 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		1E454B991FD0869C00163B30 /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		1E454B9A1FD0869C00163B30 /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		1E722E771FE3E674002840B7 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1E722E781FE3E674002840B7 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		467D4D0857FDF78EC13BCC04 /* Pods-ProfileLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfileLoader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProfileLoader/Pods-ProfileLoader.release.xcconfig"; sourceTree = "<group>"; };
+		84437113A85A6F0C2259FFA6 /* libPods-ProfileLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProfileLoader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B10C3F327CC2CE3BFE690F0 /* Pods-ProfileLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfileLoader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProfileLoader/Pods-ProfileLoader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E454B6D1FD06C2C00163B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E454B901FD06CC100163B30 /* Bolts.framework in Frameworks */,
+				1E454B8E1FD06CBC00163B30 /* FBSDKShareKit.framework in Frameworks */,
+				1E454B921FD06CCA00163B30 /* FBSDKLoginKit.framework in Frameworks */,
+				1E454B8C1FD06CAE00163B30 /* FBSDKCoreKit.framework in Frameworks */,
+				BD385711D3EBAF86AE29144F /* libPods-ProfileLoader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E454B671FD06C2C00163B30 = {
+			isa = PBXGroup;
+			children = (
+				1E454B721FD06C2C00163B30 /* ProfileLoader */,
+				1E454B711FD06C2C00163B30 /* Products */,
+				1E454B911FD06CCA00163B30 /* FBSDKLoginKit.framework */,
+				1E454B8F1FD06CC100163B30 /* Bolts.framework */,
+				1E454B8D1FD06CBB00163B30 /* FBSDKShareKit.framework */,
+				1E454B8B1FD06CAE00163B30 /* FBSDKCoreKit.framework */,
+				3F5D83CBB9B38E43ACC4C36B /* Pods */,
+				2C91900277B62E935249BE55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E454B711FD06C2C00163B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E454B701FD06C2C00163B30 /* ProfileLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E454B721FD06C2C00163B30 /* ProfileLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1E454B731FD06C2C00163B30 /* AppDelegate.h */,
+				1E454B741FD06C2C00163B30 /* AppDelegate.m */,
+				1E454B761FD06C2C00163B30 /* ViewController.h */,
+				1E454B771FD06C2C00163B30 /* ViewController.m */,
+				1E454B791FD06C2C00163B30 /* Main.storyboard */,
+				1E454B7C1FD06C2C00163B30 /* Assets.xcassets */,
+				1E454B7E1FD06C2C00163B30 /* LaunchScreen.storyboard */,
+				1E454B811FD06C2C00163B30 /* Info.plist */,
+				1E454B821FD06C2C00163B30 /* main.m */,
+				1E454B931FD0706600163B30 /* FormViewController.h */,
+				1E454B941FD0706600163B30 /* FormViewController.m */,
+				1E454B961FD0856B00163B30 /* UserViewController.h */,
+				1E454B971FD0856B00163B30 /* UserViewController.m */,
+				1E454B991FD0869C00163B30 /* UserTableViewCell.h */,
+				1E454B9A1FD0869C00163B30 /* UserTableViewCell.m */,
+				1E722E771FE3E674002840B7 /* WebViewController.h */,
+				1E722E781FE3E674002840B7 /* WebViewController.m */,
+			);
+			path = ProfileLoader;
+			sourceTree = "<group>";
+		};
+		2C91900277B62E935249BE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84437113A85A6F0C2259FFA6 /* libPods-ProfileLoader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F5D83CBB9B38E43ACC4C36B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B10C3F327CC2CE3BFE690F0 /* Pods-ProfileLoader.debug.xcconfig */,
+				467D4D0857FDF78EC13BCC04 /* Pods-ProfileLoader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E454B6F1FD06C2C00163B30 /* ProfileLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E454B861FD06C2C00163B30 /* Build configuration list for PBXNativeTarget "ProfileLoader" */;
+			buildPhases = (
+				5141074B0EC80F63D9D2462C /* [CP] Check Pods Manifest.lock */,
+				1E454B6C1FD06C2C00163B30 /* Sources */,
+				1E454B6D1FD06C2C00163B30 /* Frameworks */,
+				1E454B6E1FD06C2C00163B30 /* Resources */,
+				E21768598174BDCC58147D0C /* [CP] Embed Pods Frameworks */,
+				F5A8290DA236118CFA762534 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProfileLoader;
+			productName = ProfileLoader;
+			productReference = 1E454B701FD06C2C00163B30 /* ProfileLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E454B681FD06C2C00163B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mountain Viewer";
+				TargetAttributes = {
+					1E454B6F1FD06C2C00163B30 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1E454B6B1FD06C2C00163B30 /* Build configuration list for PBXProject "ProfileLoader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E454B671FD06C2C00163B30;
+			productRefGroup = 1E454B711FD06C2C00163B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E454B6F1FD06C2C00163B30 /* ProfileLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E454B6E1FD06C2C00163B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E454B801FD06C2C00163B30 /* LaunchScreen.storyboard in Resources */,
+				1E454B7D1FD06C2C00163B30 /* Assets.xcassets in Resources */,
+				1E454B7B1FD06C2C00163B30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5141074B0EC80F63D9D2462C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E21768598174BDCC58147D0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProfileLoader/Pods-ProfileLoader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A8290DA236118CFA762534 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProfileLoader/Pods-ProfileLoader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E454B6C1FD06C2C00163B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E454B781FD06C2C00163B30 /* ViewController.m in Sources */,
+				1E722E791FE3E674002840B7 /* WebViewController.m in Sources */,
+				1E454B981FD0856B00163B30 /* UserViewController.m in Sources */,
+				1E454B9B1FD0869C00163B30 /* UserTableViewCell.m in Sources */,
+				1E454B831FD06C2C00163B30 /* main.m in Sources */,
+				1E454B951FD0706600163B30 /* FormViewController.m in Sources */,
+				1E454B751FD06C2C00163B30 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E454B791FD06C2C00163B30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E454B7A1FD06C2C00163B30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E454B7E1FD06C2C00163B30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E454B7F1FD06C2C00163B30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E454B841FD06C2C00163B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E454B851FD06C2C00163B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E454B871FD06C2C00163B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B10C3F327CC2CE3BFE690F0 /* Pods-ProfileLoader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7544MQP9KA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ProfileLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mountain-viewer.ProfileLoader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E454B881FD06C2C00163B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467D4D0857FDF78EC13BCC04 /* Pods-ProfileLoader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7544MQP9KA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ProfileLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mountain-viewer.ProfileLoader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E454B6B1FD06C2C00163B30 /* Build configuration list for PBXProject "ProfileLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E454B841FD06C2C00163B30 /* Debug */,
+				1E454B851FD06C2C00163B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E454B861FD06C2C00163B30 /* Build configuration list for PBXNativeTarget "ProfileLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E454B871FD06C2C00163B30 /* Debug */,
+				1E454B881FD06C2C00163B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E454B681FD06C2C00163B30 /* Project object */;
+}
