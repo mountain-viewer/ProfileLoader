@@ -21,6 +21,7 @@
 		1E454B981FD0856B00163B30 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B971FD0856B00163B30 /* UserViewController.m */; };
 		1E454B9B1FD0869C00163B30 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E454B9A1FD0869C00163B30 /* UserTableViewCell.m */; };
 		1E722E791FE3E674002840B7 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E722E781FE3E674002840B7 /* WebViewController.m */; };
+		1EFB1D47203466D4004080A3 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFB1D46203466D4004080A3 /* ImageViewController.m */; };
 		BD385711D3EBAF86AE29144F /* libPods-ProfileLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84437113A85A6F0C2259FFA6 /* libPods-ProfileLoader.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		1E454B9A1FD0869C00163B30 /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
 		1E722E771FE3E674002840B7 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		1E722E781FE3E674002840B7 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		1EFB1D45203466D4004080A3 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		1EFB1D46203466D4004080A3 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		467D4D0857FDF78EC13BCC04 /* Pods-ProfileLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfileLoader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProfileLoader/Pods-ProfileLoader.release.xcconfig"; sourceTree = "<group>"; };
 		84437113A85A6F0C2259FFA6 /* libPods-ProfileLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProfileLoader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B10C3F327CC2CE3BFE690F0 /* Pods-ProfileLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfileLoader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProfileLoader/Pods-ProfileLoader.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				1E454B9A1FD0869C00163B30 /* UserTableViewCell.m */,
 				1E722E771FE3E674002840B7 /* WebViewController.h */,
 				1E722E781FE3E674002840B7 /* WebViewController.m */,
+				1EFB1D45203466D4004080A3 /* ImageViewController.h */,
+				1EFB1D46203466D4004080A3 /* ImageViewController.m */,
 			);
 			path = ProfileLoader;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				1E454B781FD06C2C00163B30 /* ViewController.m in Sources */,
 				1E722E791FE3E674002840B7 /* WebViewController.m in Sources */,
+				1EFB1D47203466D4004080A3 /* ImageViewController.m in Sources */,
 				1E454B981FD0856B00163B30 /* UserViewController.m in Sources */,
 				1E454B9B1FD0869C00163B30 /* UserTableViewCell.m in Sources */,
 				1E454B831FD06C2C00163B30 /* main.m in Sources */,

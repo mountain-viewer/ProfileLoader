@@ -12,11 +12,13 @@
 #import "UserViewController.h"
 #import <SafariServices/SafariServices.h>
 #import "WebViewController.h"
+#import "ImageViewController.h"
 
 @interface FormViewController ()
 
 @property (nonatomic, strong) NSArray *users;
 @property (nonatomic, strong) NSString *requestedURL;
+@property (nonatomic, strong) NSString *photoURL;
 
 @end
 
@@ -72,6 +74,9 @@
     } else if ([segue.identifier isEqualToString:@"web"]) {
         WebViewController *destVC = (WebViewController *)segue.destinationViewController;
         destVC.initialURL = self.requestedURL;
+    } else if ([segue.identifier isEqualToString:@"image"]) {
+        ImageViewController *destVC = (ImageViewController *)segue.destinationViewController;
+        destVC.url = self.photoURL;
     }
 }
 
@@ -122,6 +127,22 @@
         UIAlertAction *loadAction = [UIAlertAction actionWithTitle:@"Load basic info" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             NSDictionary *parameters = @{@"fields" : @"name,age_range,email,work"};
             NSString *graphPath = [NSString stringWithFormat:@"/%@", self.userID];
+            
+            if ([FBSDKAccessToken currentAccessToken]) {
+                NSString *path = [NSString stringWithFormat:@"/%@", self.userID];
+                NSDictionary *parameters = @{@"fields" : @"picture.type(large)"};
+                
+                [[[FBSDKGraphRequest alloc] initWithGraphPath:path parameters:parameters]
+                 startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+                     if (!error) {
+                         // NSLog(@"Response: %@", result);
+                         NSLog(@"Result: %@", result[@"picture"][@"data"][@"url"]);
+                         self.photoURL = result[@"picture"][@"data"][@"url"];
+                         [self performSegueWithIdentifier:@"image" sender:self];
+                         // [self.profileImageURLs addObject:[NSURL URLWithString:result[@"picture"][@"data"][@"url"]]];
+                     }
+                 }];
+            }
             
             if ([FBSDKAccessToken currentAccessToken]) {
                 [[[FBSDKGraphRequest alloc] initWithGraphPath:graphPath parameters:parameters]
